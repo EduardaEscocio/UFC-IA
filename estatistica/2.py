@@ -62,16 +62,13 @@ def p95(arr):
     return arr[pos - 1]
 
 
-a = [3, 5, 7, 8, 12, 14, 21]
-b = [10, 11, 12, 13, 14, 15]
-
-print("media: ", media(a))
-print("mediana: ", mediana(a))
-print("primeiro_quartil: ", primeiro_quartil(a))
-print("terceiro_quartil: ", terceiro_quartil(a))
-print("iqr: ", iqr(a))
-print("outliers: ", outliers(a))
-print("p95: ", p95(a))
+print("media: ", media(tempo_de_resposta))
+print("mediana: ", mediana(tempo_de_resposta))
+print("primeiro_quartil: ", primeiro_quartil(tempo_de_resposta))
+print("terceiro_quartil: ", terceiro_quartil(tempo_de_resposta))
+print("iqr: ", iqr(tempo_de_resposta))
+print("outliers: ", outliers(tempo_de_resposta))
+print("p95: ", p95(tempo_de_resposta))
 
 """
 5. A equipe deveria divulgar a média, a mediana ou o P95 em seu relatório de desempenho? Justifique.
